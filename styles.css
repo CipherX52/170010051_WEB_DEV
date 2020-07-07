@@ -1,0 +1,74 @@
+.body{
+font-family:Helvetica, "Times New Roman";
+font-size:16px;
+margin:30px 100px 30px;
+}
+
+.card {	
+font-family:"Times New Roman";
+background-color:#39ff14;
+box-shadow: 0px 0px 5px 5px #FF6EC7;
+max-width: 300px;
+margin: auto;
+text-align: center;
+border-style:solid;
+border-color:white;	
+}
+
+.Dept, .insti {
+color: black;
+font-size: 22px;
+}
+
+button {
+border: none;
+outline: 0;
+display: inline-block;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+#twitter,#linkedin {
+text-decoration: none;
+font-size: 24px;
+color: black;
+}
+
+button:hover, a:hover {
+opacity: 0.7;
+}
+
+#hide {
+background-color:#FF66CC;
+display: none;
+}
+
+.contact:hover + #hide {
+display: block;
+}
+
+#play {
+display: none;
+}
+
+#gaming:hover + #play {
+display: block;
+}
+
+
+#gif{
+box-shadow: 0 0 5px 5px #be00fe;
+text-align: center;
+padding:3px;
+background-color:white;
+border-radius:40px;
+}
+
+a:link{
+text-decoration:none;
+}
+
